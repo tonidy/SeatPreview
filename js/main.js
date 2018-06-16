@@ -9,7 +9,6 @@
  * http://www.codrops.com
  */
 import classie from 'classie';
-import Modernizr from 'modernizr';
 
 /**
  * some helper functions
@@ -93,6 +92,8 @@ function lineEq(y2, y1, x2, x1, currentVal) {
 
 	return m * currentVal + b;
 }
+
+const Modernizr = window.Modernizr
 
 var support = {transitions : Modernizr.csstransitions},
 	transEndEventNames = {'WebkitTransition': 'webkitTransitionEnd', 'MozTransition': 'transitionend', 'OTransition': 'oTransitionEnd', 'msTransition': 'MSTransitionEnd', 'transition': 'transitionend'},
