@@ -139,6 +139,16 @@
   background-size: 100%;
 }
 
+.rows--large .row__seat--reserved {
+  -webkit-filter: hue-rotate(170deg) saturate(80);
+  filter: hue-rotate(170deg) saturate(80);
+}
+
+.rows--large .row__seat--selected {
+  -webkit-filter: hue-rotate(240deg) saturate(60);
+  filter: hue-rotate(240deg) saturate(60);
+}
+
 .rows--mini .row__seat:nth-child(9) {
   margin-right: 15px;
 }
@@ -279,7 +289,7 @@
 }
 
 .legend__item::before {
-  content: '';
+  content: "";
   width: 10px;
   height: 10px;
   display: inline-block;
@@ -324,7 +334,7 @@
 .tooltip::before {
   bottom: 100%;
   border: solid transparent;
-  content: '';
+  content: "";
   height: 0;
   width: 0;
   z-index: 1001;
@@ -389,7 +399,7 @@
   position: absolute;
   top: 0;
   border-radius: 7px;
-  background: #232325;
+  background: #6f6f7b;
 }
 
 .poster {

@@ -6,10 +6,12 @@
   "author": "Amila Welihinda <amilajack@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "css": "sass --update css/component.scss css/component.css"
   },
   "devDependencies": {
-    "parcel": "^1.9.0"
+    "parcel": "^1.9.0",
+    "sass": "^1.22.1"
   },
   "dependencies": {
     "classie": "^1.0.0",
